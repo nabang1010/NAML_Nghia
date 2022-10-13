@@ -47,7 +47,7 @@ class NRMSConfig(BaseConfig):
 
 class NAMLConfig(BaseConfig):
     dataset_attributes = {
-        "news": ['category', 'subcategory', 'title', 'abstract'],
+        "news": ['category', 'subcategory', 'title', 'abstract'],#['category', 'subcategory', 'title', 'abstract']
         "record": []
     }
     # For CNN
